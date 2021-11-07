@@ -1,0 +1,28 @@
+
+@page {
+	margin-top: 40px;
+}
+
+@media print{
+
+	.header a{
+		display:none !important;
+	}
+	
+	.header, .title {
+	margin-top: 40px;
+	}
+	
+	.header:after {
+		content: "Raport wygenerowano ze strony na zaliczenie przedmiotu Zaawansowane aplikacje internetowe.";
+	}
+	
+	nav{
+		display:none !important;
+	}	
+	
+	#przedmioty{
+		 page-break-before: always; 
+	}
+
+}
